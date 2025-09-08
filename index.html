@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Pencatatan Buku</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 20px;
+    }
+    h2 {
+      color: #0056b3;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background: #e9ecef;
+    }
+    form {
+      background: #e7f1ff;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    input, select, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h2>Contoh Pencatatan Buku</h2>
+  <p>Berikut contoh sederhana pencatatan buku dalam bentuk tabel:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Judul Buku</th>
+        <th>Penulis</th>
+        <th>Tahun</th>
+        <th>Kategori</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Laskar Pelangi</td><td>Andrea Hirata</td><td>2005</td><td>Novel</td></tr>
+      <tr><td>2</td><td>Bumi</td><td>Tere Liye</td><td>2014</td><td>Fiksi</td></tr>
+      <tr><td>3</td><td>Matematika Dasar</td><td>Drs. Sutanto</td><td>2018</td><td>Pelajaran</td></tr>
+      <tr><td>4</td><td>Negeri 5 Menara</td><td>A. Fuadi</td><td>2009</td><td>Novel</td></tr>
+      <tr><td>5</td><td>Fisika untuk SMA</td><td>Prof. Budi Santosa</td><td>2016</td><td>Pelajaran</td></tr>
+      <tr><td>6</td><td>Sejarah Indonesia</td><td>Dr. Anwar</td><td>2012</td><td>Sejarah</td></tr>
+      <tr><td>7</td><td>Kumpulan Dongeng Nusantara</td><td>Siti Rahma</td><td>2010</td><td>Dongeng</td></tr>
+      <tr><td>8</td><td>Artikel Kesehatan Modern</td><td>Dr. Rina</td><td>2020</td><td>Artikel</td></tr>
+      <tr><td>9</td><td>Berita Teknologi Harian</td><td>Redaksi TechNews</td><td>2023</td><td>Berita</td></tr>
+      <tr><td>10</td><td>Cerita Rakyat Malin Kundang</td><td>Anonim</td><td>2001</td><td>Dongeng</td></tr>
+    </tbody>
+  </table>
+
+  <form>
+    <h3>Tambah Buku Baru</h3>
+    <label>Judul Buku:</label>
+    <input type="text" name="judul" placeholder="Masukkan judul buku">
+
+    <label>Penulis:</label>
+    <input type="text" name="penulis" placeholder="Masukkan nama penulis">
+
+    <label>Tahun:</label>
+    <input type="number" name="tahun" placeholder="Masukkan tahun terbit">
+
+    <label>Kategori:</label>
+    <select name="kategori">
+      <option>-- Pilih Kategori --</option>
+      <option>Novel</option>
+      <option>Fiksi</option>
+      <option>Pelajaran</option>
+      <option>Sejarah</option>
+      <option>Dongeng</option>
+      <option>Artikel</option>
+      <option>Berita</option>
+    </select>
+
+    <button type="submit">Tambah Buku</button>
+  </form>
+</body>
+</html>
